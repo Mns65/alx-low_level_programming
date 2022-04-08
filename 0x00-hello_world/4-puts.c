@@ -2,6 +2,7 @@
 /*
  * main - puts what it gets on std output
  *
+ * Description: Puts what it gets on stdo
  */
 int main(void)
 {
