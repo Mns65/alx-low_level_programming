@@ -8,7 +8,9 @@ int main(void)
 {
 	char c;
 
-	for (c = 'a' && c != 'q' && c != 'e'; c <= 'z'; c++)
+	char c = 'a';
+	
+	for (c != 'q' && c != 'e'; c <= 'z'; c++)
 	{
 		putchar(c);
 	}
