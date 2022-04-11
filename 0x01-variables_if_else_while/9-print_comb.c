@@ -14,11 +14,11 @@ int main(void)
 
 	for (n = 48; n <= 57; n++)
 	{
-		for (i =0; i < 9; i++)
+		putchar(n);
+		for (i = 0; i < 9; i++)
 		{
 			putchar(k);
 		}
-		putchar(n);
 		putchar(s);
 
 	}
