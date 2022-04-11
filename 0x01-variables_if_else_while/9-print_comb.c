@@ -15,11 +15,9 @@ int main(void)
 	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
-		for (i = 0; i < 9; i++)
-		{
-			putchar(k);
-			putchar(s);
-		}
+		putchar(k);
+		putchar(s);
+	       
 	}
 	return (0);
 }
