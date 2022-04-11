@@ -14,13 +14,14 @@ int main(void)
 
 	for (n = 48; n <= 57; n++)
 	{
+		for (i =0; i < 9; i++)
+		{
+			putchar(k);
+		}
 		putchar(n);
 		putchar(s);
 
 	}
-	for (i = 0; i < 9; i++)
-	{
-		putchar(k);
-	}
+
 	return (0);
 }
