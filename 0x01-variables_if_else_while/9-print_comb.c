@@ -17,7 +17,8 @@ int main(void)
 		putchar(n);
 		putchar(k);
 		putchar(s);
-	       
+
 	}
+	putchar(127);
 	return (0);
 }
