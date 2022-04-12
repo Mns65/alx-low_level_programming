@@ -3,7 +3,7 @@
 /**
  * _abs - Prints absolute values of a number
  *@n: The number
- * Returns: absolute value
+ * Return: absolute value
  */
 
 int _abs(int n)
