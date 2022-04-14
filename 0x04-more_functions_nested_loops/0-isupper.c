@@ -2,7 +2,7 @@
 
 /**
  * _isupper - Tells if a letter is UPPER
- *@c: arguments 
+ *@c: arguments
  * Return: 1 if c is upper
  */
 
