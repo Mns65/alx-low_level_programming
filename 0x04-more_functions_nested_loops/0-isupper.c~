@@ -1,5 +1,0 @@
-#include "main.h"
-
-/**
- * _isupper - Tells if a letter is UPPER
- * Return:
