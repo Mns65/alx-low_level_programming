@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+ * _puts - Puts a string stdout
+ *@s: The string
+ *
+ * Return: Output
+ */
+
+void _puts(char *str)
+{
+	int i;
+
+	while (i != '\0')
+	{
+		_puts(str);
+		i++;
+	}
+}
