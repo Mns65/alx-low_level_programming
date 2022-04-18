@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - Puts a string stdout
- *@s: The string
+ *@str: The string
  *
  * Return: Output
  */
@@ -12,7 +12,7 @@ void _puts(char *str)
 
 	while (i != '\0')
 	{
-		_puts(str);
+		_putchar(str);
 		i++;
 	}
 }
