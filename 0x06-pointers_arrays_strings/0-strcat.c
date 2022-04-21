@@ -8,22 +8,15 @@
  * Return: Returns the destination
  */
 
-char *_strcat(char *dest, char *src)
+char *strcat(char *dest, const char *src)
 {
-	char *s = dest;
+	int index = 0, dest_len = 0;
 
-	while (*s != '\0')
-	{
-		s++;
-	}
+	while (dest[index++])
+		dest_len++;
 
-	while (*src != '\0')
-	{
-		*s = *src;
-		s++;
-		src++;
-	}
-	*p = '\0';
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
 
-	return dest;
+	return (dest);
 }
