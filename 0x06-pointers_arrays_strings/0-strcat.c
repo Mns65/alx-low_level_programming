@@ -2,8 +2,8 @@
 
 /**
  * strcat - Concatenates a string
- *@dest: destination string
- *@src: source string
+ * @dest: destination string
+ * @src: source string
  *
  * Return: Returns the destination
  */
