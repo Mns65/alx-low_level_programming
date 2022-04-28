@@ -3,5 +3,6 @@
 
 int _putchar(char c);
 void _puts_recursion(char *c);
+int factorial(int n);
 
 #endif
