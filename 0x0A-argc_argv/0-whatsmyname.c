@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Prints the number and names of arguments
  *@argc: the count
@@ -9,8 +9,8 @@
 
 int main (int argc, char *argv[])
 {
-	int argc__attribute__((unused));
+	int argc __attribute__((unused));
 
-	putchar(argv[0]);
+	_putchar(argv[0]);
 	return (0);
 }
