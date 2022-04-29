@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Prints the number and names of arguments
  *@argc: the count
@@ -7,7 +8,7 @@
  * Return: Always 0.
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 1)
 
