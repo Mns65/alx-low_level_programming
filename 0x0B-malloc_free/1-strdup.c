@@ -23,11 +23,10 @@ char *_strdup(char *str)
 	if (array == NULL)
 		return (NULL);
 
-	while ((array[i] = str[i]) != '\0')
-	{
-		i++;
-	}
-	array[len + 1] = '\0';
+	for (i = 0; str[i]; i++)
+		array[i] = str[i];
+	
+	array[len] = '\0';
 
 	return (array);
 }
