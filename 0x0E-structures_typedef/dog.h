@@ -7,6 +7,7 @@
  *@age: The age 
  *@owner: The owner.
  *
+ * Description: This a struct made for poppy.
  */
 
 struct dog
