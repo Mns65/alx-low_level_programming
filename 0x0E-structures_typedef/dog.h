@@ -3,9 +3,9 @@
 
 /**
  * struct dog - Talks about poppy.
- *@name: The name of the dog
- *@age: The age 
- *@owner: The owner.
+ * @name: The name of the dog
+ * @age: The age
+ * @owner: The owner.
  *
  * Description: This a struct made for poppy.
  */
